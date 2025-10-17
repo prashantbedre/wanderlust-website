@@ -29,10 +29,10 @@ ul,
 a.nav-link {
   color: black !important;
 }
-
+/* 
 .navbar-nav {
   background-color: #eaf6f691;
-}
+} */
 
 /* Footer */
 
@@ -154,6 +154,11 @@ Show Page */
 }
 
 @media (min-width: 200px) and (max-width: 400px) {
+
+  .navbar-nav{
+    background-color: #eaf6f691;;
+  }
+
   .card.col-6 {
     width: 80% !important; /* Force width to 400px on small screens */
     margin-left: auto; /* Center the element */
@@ -178,4 +183,13 @@ Show Page */
     border-radius: 4px;
 
   }
+
+  .form-control {
+    width: auto !important;
+  }
+
+  .offset-2 {
+    margin-left:0 !important;
+  }
+
 }
